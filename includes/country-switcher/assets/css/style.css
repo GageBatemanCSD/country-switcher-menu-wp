@@ -1,0 +1,120 @@
+#countries {
+  width: 60vw;
+  position: absolute;
+  right: 5vw;
+  min-height: 75vh;
+  margin-top: 65px;
+  flex-direction: column;
+}
+
+#countriesMobile {
+  width: 100%;
+  background: white;
+  position: absolute;
+  flex-direction: column;
+}
+
+.country-dropdown-item img {
+  margin-right: 10px;
+}
+
+.countries-mobile-container {
+  width: 100%;
+}
+
+#northamerica-header {
+  border-bottom: 2px solid #212121;
+  font-weight: bold;
+}
+
+#northamerica-list {
+  display: flex;
+}
+
+.country-dropdown-list {
+  display: none;
+}
+
+.countriesHeader {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.countriesHeaderMobile {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  height: 500px;
+  width: 100%;
+  overflow-y: scroll;
+  padding: 10px 30px;
+}
+
+.countriesHeaders {
+  text-align: center;
+}
+
+.countriesHeadersM {
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: #212121;
+  padding: 10px 0px;
+}
+
+.country-region-container {
+  border-bottom: 1px solid rgba(33, 33, 33, 0.1) !important;
+  border-top: 1px solid rgba(33, 33, 33, 0.1) !important;
+  width: 100% !important;
+  padding: 20px 0px !important;
+}
+
+.countriesHeader div {
+  padding: 5px 12px;
+  color: #212121;
+  border-bottom: 1px solid rgba(33, 33, 33, 0.1);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+.countriesHeaderMobile div {
+  padding: 5px 12px;
+  color: #212121;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+.country-dropdown-list {
+  padding: 2% 10%;
+  flex-wrap: wrap;
+}
+.country-dropdown-list .country-dropdown-item-container {
+  padding: 30px;
+  width: 25%;
+}
+.country-dropdown-list .country-dropdown-item {
+  font-size: 0.875rem;
+  color: #212121;
+}
+
+.country-dropdown-language a {
+  font-size: 0.75rem;
+  color: #212121;
+  padding: 3px 5px;
+}
+
+.country-dropdown-language a:hover {
+  color: #6bcad3;
+  text-decoration: underline;
+}
+
+
+#countryDisplayToggle a::after {
+  border: none;
+  font: normal normal normal 13px/1 FontAwesome;
+  font-weight: 200;
+  content: "\f078";
+  vertical-align: 0;
+  margin-left: 5px;
+  z-index: 999;
+}
